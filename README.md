@@ -37,7 +37,8 @@ Model pertama yang dicoba adalah `Multinomial Naive Bayes`. Hasil *confusion mat
 * Model hampir sepenuhnya mengabaikan kelas **"Netral"** (hanya 3 tebakan benar dari 219).
 * Model sangat bias menebak **"Negatif"** (1214 dari 1478 total tebakan).
 
-![Hasil Buruk Naive Bayes](image_9bd4e4.png)
+<img width="649" height="547" alt="unnamed" src="https://github.com/user-attachments/assets/3e3749fe-dffd-4d36-906e-99d4ff8f8291" />
+
 
 Penyebabnya ada dua:
 1.  **Data Tidak Seimbang:** Label dari VADER sangat tidak seimbang (3945 Negatif vs. 1093 Netral).
